@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<style>
+text{font-family:ui-sans-serif,system-ui,sans-serif;fill:#1f2937}
+.grid{stroke:#d1d5db;stroke-width:1}.axis{stroke:#111827;stroke-width:1.5}
+.curve{fill:none;stroke:#2563eb;stroke-width:3;stroke-linejoin:round}
+.point{fill:#2563eb;stroke:#fff;stroke-width:1.4}
+.overflow{fill:#f59e0b;stroke:#fff;stroke-width:1.4}
+.note{fill:#6b7280}
+</style>
+<rect width="1000" height="620" fill="#fff"/>
+<text x="500" y="27" text-anchor="middle" font-size="20" font-weight="650">Verified solves by attributable per-problem budget</text>
+<text class="note" x="500" y="50" text-anchor="middle" font-size="12">Problem-subtree API-equivalent cost, including retries and nested agents</text>
+<line class="grid" x1="90.000" y1="78" x2="90.000" y2="538"/>
+<text x="90.000" y="562" text-anchor="middle" font-size="12">$0</text>
+<line class="grid" x1="251.041" y1="78" x2="251.041" y2="538"/>
+<text x="251.041" y="562" text-anchor="middle" font-size="12">$25</text>
+<line class="grid" x1="412.083" y1="78" x2="412.083" y2="538"/>
+<text x="412.083" y="562" text-anchor="middle" font-size="12">$50</text>
+<line class="grid" x1="573.124" y1="78" x2="573.124" y2="538"/>
+<text x="573.124" y="562" text-anchor="middle" font-size="12">$75</text>
+<line class="grid" x1="734.165" y1="78" x2="734.165" y2="538"/>
+<text x="734.165" y="562" text-anchor="middle" font-size="12">$100</text>
+<line class="grid" x1="966.000" y1="78" x2="966.000" y2="538"/>
+<text x="966.000" y="562" text-anchor="middle" font-size="12">$135.99</text>
+<line class="grid" x1="90" y1="538.000" x2="966" y2="538.000"/>
+<text x="78" y="542.000" text-anchor="end" font-size="12">0</text>
+<line class="grid" x1="90" y1="479.772" x2="966" y2="479.772"/>
+<text x="78" y="483.772" text-anchor="end" font-size="12">10</text>
+<line class="grid" x1="90" y1="421.544" x2="966" y2="421.544"/>
+<text x="78" y="425.544" text-anchor="end" font-size="12">20</text>
+<line class="grid" x1="90" y1="363.316" x2="966" y2="363.316"/>
+<text x="78" y="367.316" text-anchor="end" font-size="12">30</text>
+<line class="grid" x1="90" y1="305.089" x2="966" y2="305.089"/>
+<text x="78" y="309.089" text-anchor="end" font-size="12">40</text>
+<line class="grid" x1="90" y1="246.861" x2="966" y2="246.861"/>
+<text x="78" y="250.861" text-anchor="end" font-size="12">50</text>
+<line class="grid" x1="90" y1="188.633" x2="966" y2="188.633"/>
+<text x="78" y="192.633" text-anchor="end" font-size="12">60</text>
+<line class="grid" x1="90" y1="130.405" x2="966" y2="130.405"/>
+<text x="78" y="134.405" text-anchor="end" font-size="12">70</text>
+<line class="grid" x1="90" y1="78.000" x2="966" y2="78.000"/>
+<text x="78" y="82.000" text-anchor="end" font-size="12">79</text>
+<line class="axis" x1="90" y1="538" x2="966" y2="538"/>
+<line class="axis" x1="90" y1="78" x2="90" y2="538"/>
+<text x="528.000" y="598" text-anchor="middle" font-size="14">Per-problem budget (USD, API-equivalent)</text>
+<text x="22" y="308.000" text-anchor="middle" font-size="14" transform="rotate(-90 22 308.000)">Cumulative distinct verified solves</text>
+<path class="curve" d="M 90.000 538.000 H 90.067 V 532.177 H 90.502 V 526.354 H 90.619 V 520.532 H 91.591 V 514.709 H 91.822 V 508.886 H 93.757 V 503.063 H 93.887 V 497.241 H 95.053 V 491.418 H 95.551 V 485.595 H 96.426 V 479.772 H 99.351 V 473.949 H 103.809 V 468.127 H 106.855 V 462.304 H 109.010 V 456.481 H 109.109 V 450.658 H 109.864 V 444.835 H 114.239 V 439.013 H 114.302 V 433.190 H 117.526 V 427.367 H 119.417 V 421.544 H 122.451 V 415.722 H 123.174 V 409.899 H 125.928 V 404.076 H 126.094 V 398.253 H 129.401 V 392.430 H 129.556 V 386.608 H 130.321 V 380.785 H 130.570 V 374.962 H 131.026 V 369.139 H 133.474 V 363.316 H 135.342 V 357.494 H 137.384 V 351.671 H 138.720 V 345.848 H 139.762 V 340.025 H 143.260 V 334.203 H 146.878 V 328.380 H 147.358 V 322.557 H 150.115 V 316.734 H 155.549 V 310.911 H 157.470 V 305.089 H 169.282 V 299.266 H 169.537 V 293.443 H 178.356 V 287.620 H 184.715 V 281.797 H 195.603 V 275.975 H 200.267 V 270.152 H 202.796 V 264.329 H 214.424 V 258.506 H 218.460 V 252.684 H 220.276 V 246.861 H 229.655 V 241.038 H 231.291 V 235.215 H 238.792 V 229.392 H 255.128 V 223.570 H 255.246 V 217.747 H 256.321 V 211.924 H 257.688 V 206.101 H 259.440 V 200.278 H 264.215 V 194.456 H 281.837 V 188.633 H 283.603 V 182.810 H 290.379 V 176.987 H 300.777 V 171.165 H 303.490 V 165.342 H 320.375 V 159.519 H 322.929 V 153.696 H 328.847 V 147.873 H 329.777 V 142.051 H 355.299 V 136.228 H 363.792 V 130.405 H 378.478 V 124.582 H 379.771 V 118.759 H 385.380 V 112.937 H 392.470 V 107.114 H 417.160 V 101.291 H 431.183 V 95.468 H 454.952 V 89.646 H 459.356 V 83.823 H 771.963 V 78.000 H 966.000"/>
+<circle class="point" cx="90.067" cy="532.177" r="4"><title>symplectic_matrix_det — $0.010402</title></circle>
+<circle class="point" cx="90.502" cy="526.354" r="4"><title>bvp_comparison — $0.077876</title></circle>
+<circle class="point" cx="90.619" cy="520.532" r="4"><title>koszul_formula — $0.096094</title></circle>
+<circle class="point" cx="91.591" cy="514.709" r="4"><title>mulCayley_connected_iff_closure_eq_top — $0.246956</title></circle>
+<circle class="point" cx="91.822" cy="508.886" r="4"><title>cubic_decay_asymptotic — $0.282902</title></circle>
+<circle class="point" cx="93.757" cy="503.063" r="4"><title>rokhlin_lemma — $0.583278</title></circle>
+<circle class="point" cx="93.887" cy="497.241" r="4"><title>pell_solution_convergent — $0.603366</title></circle>
+<circle class="point" cx="95.053" cy="491.418" r="4"><title>kakutani_fixed_point — $0.784362</title></circle>
+<circle class="point" cx="95.551" cy="485.595" r="4"><title>posSemidef_map_exp — $0.861688</title></circle>
+<circle class="point" cx="96.426" cy="479.772" r="4"><title>pi1_circle_mulEquiv_int — $0.997556</title></circle>
+<circle class="point" cx="99.351" cy="473.949" r="4"><title>finite_graph_ramsey_theorem — $1.451576</title></circle>
+<circle class="point" cx="103.809" cy="468.127" r="4"><title>bauer_extreme_point_uniqueness — $2.143699</title></circle>
+<circle class="point" cx="106.855" cy="462.304" r="4"><title>compact_group_semisimple — $2.616493</title></circle>
+<circle class="point" cx="109.010" cy="456.481" r="4"><title>lp_maximum_principle — $2.951035</title></circle>
+<circle class="point" cx="109.109" cy="450.658" r="4"><title>morley_theorem — $2.966448</title></circle>
+<circle class="point" cx="109.864" cy="444.835" r="4"><title>hippocrates_lunes — $3.083747</title></circle>
+<circle class="point" cx="114.239" cy="439.013" r="4"><title>brauer_fowler — $3.762900</title></circle>
+<circle class="point" cx="114.302" cy="433.190" r="4"><title>runge_theorem — $3.772581</title></circle>
+<circle class="point" cx="117.526" cy="427.367" r="4"><title>pascal — $4.273179</title></circle>
+<circle class="point" cx="119.417" cy="421.544" r="4"><title>brauer_character_in_cyclotomic — $4.566702</title></circle>
+<circle class="point" cx="122.451" cy="415.722" r="4"><title>mem_convexHull_finset_extremePoints_of_mem_compact_convex — $5.037626</title></circle>
+<circle class="point" cx="123.174" cy="409.899" r="4"><title>sturm_separation — $5.149905</title></circle>
+<circle class="point" cx="125.928" cy="404.076" r="4"><title>wiener_atom_detection — $5.577479</title></circle>
+<circle class="point" cx="126.094" cy="398.253" r="4"><title>kirk_normal_structure — $5.603246</title></circle>
+<circle class="point" cx="129.401" cy="392.430" r="4"><title>furstenberg_topological — $6.116567</title></circle>
+<circle class="point" cx="129.556" cy="386.608" r="4"><title>boone_higman_simple — $6.140629</title></circle>
+<circle class="point" cx="130.321" cy="380.785" r="4"><title>abel_ruffini — $6.259456</title></circle>
+<circle class="point" cx="130.570" cy="374.962" r="4"><title>monge_kantorovich — $6.298073</title></circle>
+<circle class="point" cx="131.026" cy="369.139" r="4"><title>banach_alaoglu_bourbaki — $6.368867</title></circle>
+<circle class="point" cx="133.474" cy="363.316" r="4"><title>schauder_fixed_point — $6.748817</title></circle>
+<circle class="point" cx="135.342" cy="357.494" r="4"><title>irreducible_nonnegative_matrix_has_positive_eigenvector_at_spectralRadius — $7.038955</title></circle>
+<circle class="point" cx="137.384" cy="351.671" r="4"><title>substInv_X_sub_X_sq_eq_catalan — $7.355903</title></circle>
+<circle class="point" cx="138.720" cy="345.848" r="4"><title>shannon_capacity_pentagon — $7.563299</title></circle>
+<circle class="point" cx="139.762" cy="340.025" r="4"><title>sard_theorem — $7.725044</title></circle>
+<circle class="point" cx="143.260" cy="334.203" r="4"><title>oppenheim_inequality — $8.268121</title></circle>
+<circle class="point" cx="146.878" cy="328.380" r="4"><title>boone_higman_embedding — $8.829674</title></circle>
+<circle class="point" cx="147.358" cy="322.557" r="4"><title>dirichlet_eigenvalues_eq_nat_sq — $8.904202</title></circle>
+<circle class="point" cx="150.115" cy="316.734" r="4"><title>nyquist_shannon_sampling — $9.332187</title></circle>
+<circle class="point" cx="155.549" cy="310.911" r="4"><title>rising_sun_lemma — $10.175781</title></circle>
+<circle class="point" cx="157.470" cy="305.089" r="4"><title>wiener_inverse_closed — $10.474029</title></circle>
+<circle class="point" cx="169.282" cy="299.266" r="4"><title>vonNeumann_doubleCommutant_tfae — $12.307679</title></circle>
+<circle class="point" cx="169.537" cy="293.443" r="4"><title>radon_transform_inversion — $12.347272</title></circle>
+<circle class="point" cx="178.356" cy="287.620" r="4"><title>regular_value_ae — $13.716402</title></circle>
+<circle class="point" cx="184.715" cy="281.797" r="4"><title>euler_lagrange_equation — $14.703558</title></circle>
+<circle class="point" cx="195.603" cy="275.975" r="4"><title>tverberg_theorem — $16.393842</title></circle>
+<circle class="point" cx="200.267" cy="270.152" r="4"><title>nash_equilibrium_exists — $17.117888</title></circle>
+<circle class="point" cx="202.796" cy="264.329" r="4"><title>normal_spectral_theorem — $17.510454</title></circle>
+<circle class="point" cx="214.424" cy="258.506" r="4"><title>chudnovsky_formula_for_pi_inv — $19.315582</title></circle>
+<circle class="point" cx="218.460" cy="252.684" r="4"><title>fraser_kakeya_fourier_decay — $19.942101</title></circle>
+<circle class="point" cx="220.276" cy="246.861" r="4"><title>brouwer_fixed_point — $20.223953</title></circle>
+<circle class="point" cx="229.655" cy="241.038" r="4"><title>hausdorff_absolute_continuity — $21.680017</title></circle>
+<circle class="point" cx="231.291" cy="235.215" r="4"><title>sturm — $21.934005</title></circle>
+<circle class="point" cx="238.792" cy="229.392" r="4"><title>fang_xia_tiling_partition_transitive — $23.098426</title></circle>
+<circle class="point" cx="255.128" cy="223.570" r="4"><title>rouche_zero_count_eq — $25.634435</title></circle>
+<circle class="point" cx="255.246" cy="217.747" r="4"><title>landsberg_schaar — $25.652816</title></circle>
+<circle class="point" cx="256.321" cy="211.924" r="4"><title>peano_existence — $25.819673</title></circle>
+<circle class="point" cx="257.688" cy="206.101" r="4"><title>balanceable_bounded_partitions — $26.031782</title></circle>
+<circle class="point" cx="259.440" cy="200.278" r="4"><title>cyclotomic_integer_house_le_two — $26.303792</title></circle>
+<circle class="point" cx="264.215" cy="194.456" r="4"><title>hausdorff_hildebrandt_schoenberg — $27.045118</title></circle>
+<circle class="point" cx="281.837" cy="188.633" r="4"><title>lindemann_weierstrass — $29.780666</title></circle>
+<circle class="point" cx="283.603" cy="182.810" r="4"><title>solvable_by_radicals_converse — $30.054901</title></circle>
+<circle class="point" cx="290.379" cy="176.987" r="4"><title>hausdorff_positivity_criterion — $31.106783</title></circle>
+<circle class="point" cx="300.777" cy="171.165" r="4"><title>mountain_pass — $32.721037</title></circle>
+<circle class="point" cx="303.490" cy="165.342" r="4"><title>linear_ode_asymptotic_stability — $33.142064</title></circle>
+<circle class="point" cx="320.375" cy="159.519" r="4"><title>heat_kernel_solves_heat_equation — $35.763275</title></circle>
+<circle class="point" cx="322.929" cy="153.696" r="4"><title>choquet_representation_theorem — $36.159854</title></circle>
+<circle class="point" cx="328.847" cy="147.873" r="4"><title>trace_cayley_hamilton_newton — $37.078560</title></circle>
+<circle class="point" cx="329.777" cy="142.051" r="4"><title>fourier_dirichlet_fejer — $37.222872</title></circle>
+<circle class="point" cx="355.299" cy="136.228" r="4"><title>exists_complementary_polynomial_on_unit_circle — $41.184906</title></circle>
+<circle class="point" cx="363.792" cy="130.405" r="4"><title>lindemann — $42.503458</title></circle>
+<circle class="point" cx="378.478" cy="124.582" r="4"><title>jordan_normal_form — $44.783192</title></circle>
+<circle class="point" cx="379.771" cy="118.759" r="4"><title>symAction_range_eq_centralizer_glAction — $44.984000</title></circle>
+<circle class="point" cx="385.380" cy="112.937" r="4"><title>permute_to_unimodal — $45.854760</title></circle>
+<circle class="point" cx="392.470" cy="107.114" r="4"><title>glAction_range_eq_centralizer_symAction — $46.955294</title></circle>
+<circle class="point" cx="417.160" cy="101.291" r="4"><title>frobenius_group_determinant — $50.788183</title></circle>
+<circle class="point" cx="431.183" cy="95.468" r="4"><title>wiener_levy_analytic_calculus — $52.965181</title></circle>
+<circle class="point" cx="454.952" cy="89.646" r="4"><title>levi_civita_exists_unique — $56.655071</title></circle>
+<circle class="point" cx="459.356" cy="83.823" r="4"><title>contractibleSpace_houseWithTwoRooms — $57.338778</title></circle>
+<circle class="point" cx="771.963" cy="78.000" r="4"><title>halmos_generic_weak_mixing — $105.867757</title></circle>
+<text x="963" y="95" text-anchor="end" font-size="12" fill="#b45309">The $135.99 domain maximum is an attempted, unsolved problem</text>
+</svg>

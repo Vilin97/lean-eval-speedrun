@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100">
+<style>text{font-family:system-ui,-apple-system,sans-serif;fill:#172033}.title{font-size:28px;font-weight:700}.panel{font-size:19px;font-weight:650}.axis{font-size:12px;fill:#526078}.grid{stroke:#d9dfeb;stroke-width:1}.frame{fill:#fbfcff;stroke:#bac4d6}.line{fill:none;stroke:#2463eb;stroke-width:3}.costline{fill:none;stroke:#d14b31;stroke-width:3}.dot{fill:#2463eb;fill-opacity:.68;stroke:#153a8a}.bar{fill:#8a56d6}.note{font-size:12px;fill:#526078}</style>
+<text x="60.0" y="45.0" class="title">Vasily 24-hour GPT-5.6 LeanEval speedrun — aggregate metrics</text>
+<rect class="frame" x="85" y="90" width="650" height="380" rx="8"/>
+<text x="103.0" y="120.0" class="panel">Cumulative verified solves (logarithmic time)</text>
+<line class="grid" x1="301.2" y1="145" x2="301.2" y2="425"/>
+<text x="301.2" y="445.0" class="axis" text-anchor="middle">10m</text>
+<line class="grid" x1="464.3" y1="145" x2="464.3" y2="425"/>
+<text x="464.3" y="445.0" class="axis" text-anchor="middle">1h</text>
+<line class="grid" x1="564.3" y1="145" x2="564.3" y2="425"/>
+<text x="564.3" y="445.0" class="axis" text-anchor="middle">3h</text>
+<line class="grid" x1="627.4" y1="145" x2="627.4" y2="425"/>
+<text x="627.4" y="445.0" class="axis" text-anchor="middle">6h</text>
+<line class="grid" x1="690.5" y1="145" x2="690.5" y2="425"/>
+<text x="690.5" y="445.0" class="axis" text-anchor="middle">12h</text>
+<line class="grid" x1="147" y1="425.0" x2="709" y2="425.0"/>
+<text x="137.0" y="429.0" class="axis" text-anchor="end">0</text>
+<line class="grid" x1="147" y1="354.1" x2="709" y2="354.1"/>
+<text x="137.0" y="358.1" class="axis" text-anchor="end">20</text>
+<line class="grid" x1="147" y1="283.2" x2="709" y2="283.2"/>
+<text x="137.0" y="287.2" class="axis" text-anchor="end">40</text>
+<line class="grid" x1="147" y1="212.3" x2="709" y2="212.3"/>
+<text x="137.0" y="216.3" class="axis" text-anchor="end">60</text>
+<line class="grid" x1="147" y1="141.5" x2="709" y2="141.5"/>
+<text x="137.0" y="145.5" class="axis" text-anchor="end">80</text>
+<path class="line" d="M 147.0 425.0 L 147.0 421.5 L 182.3 417.9 L 183.7 414.4 L 208.3 410.8 L 231.8 407.3 L 280.7 403.7 L 322.5 400.2 L 323.6 396.6 L 366.6 393.1 L 377.2 389.6 L 408.1 386.0 L 418.1 382.5 L 428.4 378.9 L 456.4 375.4 L 457.6 371.8 L 461.9 368.3 L 470.2 364.7 L 483.8 361.2 L 487.8 357.7 L 491.9 354.1 L 515.8 350.6 L 516.7 347.0 L 523.1 343.5 L 526.3 339.9 L 534.8 336.4 L 536.7 332.8 L 537.0 329.3 L 542.7 325.8 L 546.5 322.2 L 552.6 318.7 L 555.9 315.1 L 556.0 311.6 L 558.8 308.0 L 559.5 304.5 L 562.5 300.9 L 562.5 297.4 L 569.4 293.9 L 571.9 290.3 L 582.6 286.8 L 583.3 283.2 L 586.1 279.7 L 590.2 276.1 L 590.2 272.6 L 598.1 269.1 L 598.4 265.5 L 600.5 262.0 L 603.3 258.4 L 607.2 254.9 L 610.2 251.3 L 610.6 247.8 L 613.3 244.2 L 616.4 240.7 L 616.9 237.2 L 617.1 233.6 L 623.1 230.1 L 626.6 226.5 L 627.6 223.0 L 629.5 219.4 L 632.3 215.9 L 633.4 212.3 L 637.1 208.8 L 637.9 205.3 L 640.8 201.7 L 646.7 198.2 L 648.2 194.6 L 649.1 191.1 L 653.5 187.5 L 654.2 184.0 L 658.7 180.4 L 658.9 176.9 L 662.2 173.4 L 665.2 169.8 L 678.7 166.3 L 688.9 162.7 L 689.2 159.2 L 692.8 155.6 L 695.5 152.1 L 700.4 148.5 L 709.0 145.0"/>
+<rect class="frame" x="820" y="90" width="650" height="380" rx="8"/>
+<text x="838.0" y="120.0" class="panel">Cumulative attributable cost of solved problem trees</text>
+<line class="grid" x1="882" y1="425.0" x2="1444" y2="425.0"/>
+<text x="872.0" y="429.0" class="axis" text-anchor="end">$0</text>
+<line class="grid" x1="882" y1="355.0" x2="1444" y2="355.0"/>
+<text x="872.0" y="359.0" class="axis" text-anchor="end">$365</text>
+<line class="grid" x1="882" y1="285.0" x2="1444" y2="285.0"/>
+<text x="872.0" y="289.0" class="axis" text-anchor="end">$730</text>
+<line class="grid" x1="882" y1="215.0" x2="1444" y2="215.0"/>
+<text x="872.0" y="219.0" class="axis" text-anchor="end">$1,096</text>
+<line class="grid" x1="882" y1="145.0" x2="1444" y2="145.0"/>
+<text x="872.0" y="149.0" class="axis" text-anchor="end">$1,461</text>
+<line class="grid" x1="1036.2" y1="145" x2="1036.2" y2="425"/>
+<text x="1036.2" y="445.0" class="axis" text-anchor="middle">10m</text>
+<line class="grid" x1="1199.3" y1="145" x2="1199.3" y2="425"/>
+<text x="1199.3" y="445.0" class="axis" text-anchor="middle">1h</text>
+<line class="grid" x1="1299.3" y1="145" x2="1299.3" y2="425"/>
+<text x="1299.3" y="445.0" class="axis" text-anchor="middle">3h</text>
+<line class="grid" x1="1362.4" y1="145" x2="1362.4" y2="425"/>
+<text x="1362.4" y="445.0" class="axis" text-anchor="middle">6h</text>
+<line class="grid" x1="1425.5" y1="145" x2="1425.5" y2="425"/>
+<text x="1425.5" y="445.0" class="axis" text-anchor="middle">12h</text>
+<path class="costline" d="M 882.0 425.0 L 882.0 425.0 L 917.3 424.9 L 918.7 424.9 L 943.3 424.9 L 966.8 424.9 L 1015.7 424.7 L 1057.5 423.3 L 1058.6 423.0 L 1101.6 422.0 L 1112.2 421.1 L 1143.1 420.5 L 1153.1 417.6 L 1163.4 417.1 L 1191.4 410.0 L 1192.6 406.6 L 1196.9 406.4 L 1205.2 406.3 L 1218.8 405.4 L 1222.8 404.1 L 1226.9 402.5 L 1250.8 399.2 L 1251.7 394.3 L 1258.1 386.4 L 1261.3 386.0 L 1269.8 384.1 L 1271.7 380.2 L 1272.0 377.5 L 1277.7 376.1 L 1281.5 375.6 L 1287.6 374.4 L 1290.9 373.2 L 1291.0 371.4 L 1293.8 367.7 L 1294.5 365.3 L 1297.5 363.6 L 1297.5 362.4 L 1304.4 361.3 L 1306.9 354.4 L 1317.6 349.4 L 1318.3 342.3 L 1321.1 341.0 L 1325.2 340.2 L 1325.2 335.2 L 1333.1 328.8 L 1333.4 326.5 L 1335.5 325.7 L 1338.3 324.6 L 1342.2 323.4 L 1345.2 315.2 L 1345.6 306.5 L 1348.3 303.3 L 1351.4 301.6 L 1351.9 300.5 L 1352.1 296.3 L 1358.1 296.2 L 1361.6 291.3 L 1362.6 285.6 L 1364.5 283.6 L 1367.3 278.6 L 1368.4 278.0 L 1372.1 276.6 L 1372.9 268.0 L 1375.8 259.0 L 1381.7 248.8 L 1383.2 242.5 L 1384.1 231.7 L 1388.5 223.1 L 1389.2 217.3 L 1393.7 211.4 L 1393.9 206.2 L 1397.2 202.0 L 1400.2 201.3 L 1413.7 190.3 L 1423.9 185.9 L 1424.2 185.8 L 1427.8 178.8 L 1430.5 175.0 L 1435.4 165.3 L 1444.0 145.0"/>
+<rect class="frame" x="85" y="610" width="650" height="380" rx="8"/>
+<text x="103.0" y="640.0" class="panel">Attributable problem-tree cost vs added Lean LOC (log–log)</text>
+<line class="grid" x1="280.6" y1="665" x2="280.6" y2="945"/>
+<text x="280.6" y="965.0" class="axis" text-anchor="middle">10</text>
+<line class="grid" x1="344.3" y1="665" x2="344.3" y2="945"/>
+<text x="344.3" y="965.0" class="axis" text-anchor="middle">30</text>
+<line class="grid" x1="414.1" y1="665" x2="414.1" y2="945"/>
+<text x="414.1" y="965.0" class="axis" text-anchor="middle">100</text>
+<line class="grid" x1="477.9" y1="665" x2="477.9" y2="945"/>
+<text x="477.9" y="965.0" class="axis" text-anchor="middle">300</text>
+<line class="grid" x1="547.7" y1="665" x2="547.7" y2="945"/>
+<text x="547.7" y="965.0" class="axis" text-anchor="middle">1000</text>
+<line class="grid" x1="611.4" y1="665" x2="611.4" y2="945"/>
+<text x="611.4" y="965.0" class="axis" text-anchor="middle">3000</text>
+<line class="grid" x1="681.3" y1="665" x2="681.3" y2="945"/>
+<text x="681.3" y="965.0" class="axis" text-anchor="middle">10000</text>
+<line class="grid" x1="147" y1="876.3" x2="709" y2="876.3"/>
+<text x="137.0" y="880.3" class="axis" text-anchor="end">$0.1</text>
+<line class="grid" x1="147" y1="843.0" x2="709" y2="843.0"/>
+<text x="137.0" y="847.0" class="axis" text-anchor="end">$0.3</text>
+<line class="grid" x1="147" y1="806.5" x2="709" y2="806.5"/>
+<text x="137.0" y="810.5" class="axis" text-anchor="end">$1</text>
+<line class="grid" x1="147" y1="773.1" x2="709" y2="773.1"/>
+<text x="137.0" y="777.1" class="axis" text-anchor="end">$3</text>
+<line class="grid" x1="147" y1="736.6" x2="709" y2="736.6"/>
+<text x="137.0" y="740.6" class="axis" text-anchor="end">$10</text>
+<line class="grid" x1="147" y1="703.3" x2="709" y2="703.3"/>
+<text x="137.0" y="707.3" class="axis" text-anchor="end">$30</text>
+<line class="grid" x1="147" y1="666.7" x2="709" y2="666.7"/>
+<text x="137.0" y="670.7" class="axis" text-anchor="end">$100</text>
+<circle class="dot" cx="147.0" cy="945.0" r="4"><title>symplectic_matrix_det: 1 LOC, $0.01</title></circle>
+<circle class="dot" cx="417.5" cy="844.8" r="4"><title>cubic_decay_asymptotic: 106 LOC, $0.28</title></circle>
+<circle class="dot" cx="323.6" cy="877.5" r="4"><title>koszul_formula: 21 LOC, $0.10</title></circle>
+<circle class="dot" cx="369.1" cy="848.9" r="4"><title>mulCayley_connected_iff_closure_eq_top: 46 LOC, $0.25</title></circle>
+<circle class="dot" cx="333.7" cy="883.9" r="4"><title>bvp_comparison: 25 LOC, $0.08</title></circle>
+<circle class="dot" cx="338.2" cy="811.0" r="4"><title>posSemidef_map_exp: 27 LOC, $0.86</title></circle>
+<circle class="dot" cx="346.2" cy="745.9" r="4"><title>substInv_X_sub_X_sq_eq_catalan: 31 LOC, $7.36</title></circle>
+<circle class="dot" cx="386.4" cy="795.2" r="4"><title>finite_graph_ramsey_theorem: 62 LOC, $1.45</title></circle>
+<circle class="dot" cx="452.9" cy="757.4" r="4"><title>mem_convexHull_finset_extremePoints_of_mem_compact_convex: 195 LOC, $5.04</title></circle>
+<circle class="dot" cx="496.5" cy="756.7" r="4"><title>sturm_separation: 414 LOC, $5.15</title></circle>
+<circle class="dot" cx="490.8" cy="772.3" r="4"><title>hippocrates_lunes: 375 LOC, $3.08</title></circle>
+<circle class="dot" cx="446.3" cy="724.9" r="4"><title>euler_lagrange_equation: 174 LOC, $14.70</title></circle>
+<circle class="dot" cx="403.3" cy="773.6" r="4"><title>lp_maximum_principle: 83 LOC, $2.95</title></circle>
+<circle class="dot" cx="451.4" cy="696.8" r="4"><title>trace_cayley_hamilton_newton: 190 LOC, $37.08</title></circle>
+<circle class="dot" cx="432.4" cy="719.6" r="4"><title>normal_spectral_theorem: 137 LOC, $17.51</title></circle>
+<circle class="dot" cx="311.3" cy="806.5" r="4"><title>pi1_circle_mulEquiv_int: 17 LOC, $1.00</title></circle>
+<circle class="dot" cx="411.8" cy="821.8" r="4"><title>pell_solution_convergent: 96 LOC, $0.60</title></circle>
+<circle class="dot" cx="371.6" cy="760.4" r="4"><title>brauer_character_in_cyclotomic: 48 LOC, $4.57</title></circle>
+<circle class="dot" cx="519.8" cy="747.3" r="4"><title>irreducible_nonnegative_matrix_has_positive_eigenvector_at_spectralRadius: 618 LOC, $7.04</title></circle>
+<circle class="dot" cx="466.1" cy="742.4" r="4"><title>oppenheim_inequality: 245 LOC, $8.27</title></circle>
+<circle class="dot" cx="634.1" cy="720.3" r="4"><title>nash_equilibrium_exists: 4435 LOC, $17.12</title></circle>
+<circle class="dot" cx="491.7" cy="708.0" r="4"><title>rouche_zero_count_eq: 381 LOC, $25.63</title></circle>
+<circle class="dot" cx="547.1" cy="693.6" r="4"><title>exists_complementary_polynomial_on_unit_circle: 990 LOC, $41.18</title></circle>
+<circle class="dot" cx="349.8" cy="783.3" r="4"><title>bauer_extreme_point_uniqueness: 33 LOC, $2.14</title></circle>
+<circle class="dot" cx="489.5" cy="736.1" r="4"><title>rising_sun_lemma: 367 LOC, $10.18</title></circle>
+<circle class="dot" cx="613.5" cy="715.2" r="4"><title>brouwer_fixed_point: 3111 LOC, $20.22</title></circle>
+<circle class="dot" cx="628.8" cy="727.0" r="4"><title>regular_value_ae: 4050 LOC, $13.72</title></circle>
+<circle class="dot" cx="629.0" cy="744.4" r="4"><title>sard_theorem: 4065 LOC, $7.73</title></circle>
+<circle class="dot" cx="402.6" cy="777.3" r="4"><title>compact_group_semisimple: 82 LOC, $2.62</title></circle>
+<circle class="dot" cx="526.5" cy="750.8" r="4"><title>abel_ruffini: 694 LOC, $6.26</title></circle>
+<circle class="dot" cx="451.1" cy="750.6" r="4"><title>monge_kantorovich: 189 LOC, $6.30</title></circle>
+<circle class="dot" cx="466.3" cy="738.7" r="4"><title>nyquist_shannon_sampling: 246 LOC, $9.33</title></circle>
+<circle class="dot" cx="709.0" cy="716.6" r="4"><title>chudnovsky_formula_for_pi_inv: 16132 LOC, $19.32</title></circle>
+<circle class="dot" cx="441.4" cy="730.2" r="4"><title>radon_transform_inversion: 160 LOC, $12.35</title></circle>
+<circle class="dot" cx="458.0" cy="740.1" r="4"><title>dirichlet_eigenvalues_eq_nat_sq: 213 LOC, $8.90</title></circle>
+<circle class="dot" cx="407.4" cy="750.3" r="4"><title>banach_alaoglu_bourbaki: 89 LOC, $6.37</title></circle>
+<circle class="dot" cx="477.5" cy="754.3" r="4"><title>wiener_atom_detection: 298 LOC, $5.58</title></circle>
+<circle class="dot" cx="502.7" cy="697.9" r="4"><title>heat_kernel_solves_heat_equation: 460 LOC, $35.76</title></circle>
+<circle class="dot" cx="510.1" cy="707.3" r="4"><title>cyclotomic_integer_house_le_two: 523 LOC, $26.30</title></circle>
+<circle class="dot" cx="514.2" cy="696.7" r="4"><title>fourier_dirichlet_fejer: 561 LOC, $37.22</title></circle>
+<circle class="dot" cx="624.4" cy="748.5" r="4"><title>schauder_fixed_point: 3753 LOC, $6.75</title></circle>
+<circle class="dot" cx="492.3" cy="762.4" r="4"><title>pascal: 385 LOC, $4.27</title></circle>
+<circle class="dot" cx="520.3" cy="707.6" r="4"><title>balanceable_bounded_partitions: 624 LOC, $26.03</title></circle>
+<circle class="dot" cx="473.0" cy="700.2" r="4"><title>linear_ode_asymptotic_stability: 276 LOC, $33.14</title></circle>
+<circle class="dot" cx="484.3" cy="730.3" r="4"><title>vonNeumann_doubleCommutant_tfae: 335 LOC, $12.31</title></circle>
+<circle class="dot" cx="464.9" cy="766.3" r="4"><title>brauer_fowler: 240 LOC, $3.76</title></circle>
+<circle class="dot" cx="486.8" cy="751.5" r="4"><title>furstenberg_topological: 350 LOC, $6.12</title></circle>
+<circle class="dot" cx="501.2" cy="751.4" r="4"><title>boone_higman_simple: 449 LOC, $6.14</title></circle>
+<circle class="dot" cx="511.7" cy="692.7" r="4"><title>lindemann: 538 LOC, $42.50</title></circle>
+<circle class="dot" cx="601.7" cy="690.4" r="4"><title>permute_to_unimodal: 2537 LOC, $45.85</title></circle>
+<circle class="dot" cx="513.1" cy="721.6" r="4"><title>tverberg_theorem: 551 LOC, $16.39</title></circle>
+<circle class="dot" cx="540.5" cy="740.4" r="4"><title>boone_higman_embedding: 884 LOC, $8.83</title></circle>
+<circle class="dot" cx="479.8" cy="754.2" r="4"><title>kirk_normal_structure: 310 LOC, $5.60</title></circle>
+<circle class="dot" cx="561.7" cy="712.8" r="4"><title>sturm: 1273 LOC, $21.93</title></circle>
+<circle class="dot" cx="615.2" cy="813.8" r="4"><title>kakutani_fixed_point: 3200 LOC, $0.78</title></circle>
+<circle class="dot" cx="541.5" cy="708.0" r="4"><title>landsberg_schaar: 899 LOC, $25.65</title></circle>
+<circle class="dot" cx="549.4" cy="703.5" r="4"><title>lindemann_weierstrass: 1030 LOC, $29.78</title></circle>
+<circle class="dot" cx="499.7" cy="735.2" r="4"><title>wiener_inverse_closed: 437 LOC, $10.47</title></circle>
+<circle class="dot" cx="480.7" cy="707.8" r="4"><title>peano_existence: 315 LOC, $25.82</title></circle>
+<circle class="dot" cx="512.6" cy="773.5" r="4"><title>morley_theorem: 546 LOC, $2.97</title></circle>
+<circle class="dot" cx="504.1" cy="745.1" r="4"><title>shannon_capacity_pentagon: 472 LOC, $7.56</title></circle>
+<circle class="dot" cx="529.1" cy="691.0" r="4"><title>symAction_range_eq_centralizer_glAction: 726 LOC, $44.98</title></circle>
+<circle class="dot" cx="591.0" cy="689.7" r="4"><title>glAction_range_eq_centralizer_symAction: 2110 LOC, $46.96</title></circle>
+<circle class="dot" cx="595.9" cy="686.0" r="4"><title>wiener_levy_analytic_calculus: 2294 LOC, $52.97</title></circle>
+<text x="601.9" y="681.0" class="note">wiener_levy_analytic_calculu</text>
+<circle class="dot" cx="531.7" cy="700.6" r="4"><title>mountain_pass: 759 LOC, $32.72</title></circle>
+<circle class="dot" cx="543.0" cy="684.0" r="4"><title>levi_civita_exists_unique: 923 LOC, $56.66</title></circle>
+<text x="549.0" y="679.0" class="note">levi_civita_exists_unique</text>
+<circle class="dot" cx="505.4" cy="691.1" r="4"><title>jordan_normal_form: 482 LOC, $44.78</title></circle>
+<circle class="dot" cx="479.8" cy="703.2" r="4"><title>solvable_by_radicals_converse: 310 LOC, $30.05</title></circle>
+<circle class="dot" cx="547.7" cy="702.2" r="4"><title>hausdorff_positivity_criterion: 1000 LOC, $31.11</title></circle>
+<circle class="dot" cx="567.6" cy="706.4" r="4"><title>hausdorff_hildebrandt_schoenberg: 1409 LOC, $27.05</title></circle>
+<circle class="dot" cx="539.1" cy="713.1" r="4"><title>hausdorff_absolute_continuity: 863 LOC, $21.68</title></circle>
+<circle class="dot" cx="587.4" cy="766.2" r="4"><title>runge_theorem: 1982 LOC, $3.77</title></circle>
+<circle class="dot" cx="616.3" cy="683.6" r="4"><title>contractibleSpace_houseWithTwoRooms: 3262 LOC, $57.34</title></circle>
+<text x="622.3" y="678.6" class="note">contractibleSpace_houseWithT</text>
+<circle class="dot" cx="576.1" cy="711.2" r="4"><title>fang_xia_tiling_partition_transitive: 1633 LOC, $23.10</title></circle>
+<circle class="dot" cx="519.3" cy="822.8" r="4"><title>rokhlin_lemma: 613 LOC, $0.58</title></circle>
+<circle class="dot" cx="547.1" cy="697.6" r="4"><title>choquet_representation_theorem: 990 LOC, $36.16</title></circle>
+<circle class="dot" cx="536.5" cy="715.7" r="4"><title>fraser_kakeya_fourier_decay: 824 LOC, $19.94</title></circle>
+<circle class="dot" cx="565.8" cy="687.3" r="4"><title>frobenius_group_determinant: 1366 LOC, $50.79</title></circle>
+<text x="571.8" y="682.3" class="note">frobenius_group_determinant</text>
+<circle class="dot" cx="659.2" cy="665.0" r="4"><title>halmos_generic_weak_mixing: 6838 LOC, $105.87</title></circle>
+<text x="665.2" y="660.0" class="note">halmos_generic_weak_mixing</text>
+<rect class="frame" x="820" y="610" width="650" height="380" rx="8"/>
+<text x="838.0" y="640.0" class="panel">Most expensive solved problem trees (API-equivalent USD)</text>
+<text x="1129.0" y="681.7" class="axis" text-anchor="end">halmos_generic_weak_mixing</text>
+<rect class="bar" x="1137" y="670.0" width="255.0" height="16.3" rx="2"/>
+<text x="1397.0" y="681.7" class="axis">$105.87</text>
+<text x="1129.0" y="705.0" class="axis" text-anchor="end">contractibleSpace_houseWithTwoRoom</text>
+<rect class="bar" x="1137" y="693.3" width="138.1" height="16.3" rx="2"/>
+<text x="1280.1" y="705.0" class="axis">$57.34</text>
+<text x="1129.0" y="728.4" class="axis" text-anchor="end">levi_civita_exists_unique</text>
+<rect class="bar" x="1137" y="716.7" width="136.5" height="16.3" rx="2"/>
+<text x="1278.5" y="728.4" class="axis">$56.66</text>
+<text x="1129.0" y="751.7" class="axis" text-anchor="end">wiener_levy_analytic_calculus</text>
+<rect class="bar" x="1137" y="740.0" width="127.6" height="16.3" rx="2"/>
+<text x="1269.6" y="751.7" class="axis">$52.97</text>
+<text x="1129.0" y="775.0" class="axis" text-anchor="end">frobenius_group_determinant</text>
+<rect class="bar" x="1137" y="763.3" width="122.3" height="16.3" rx="2"/>
+<text x="1264.3" y="775.0" class="axis">$50.79</text>
+<text x="1129.0" y="798.4" class="axis" text-anchor="end">glAction_range_eq_centralizer_symA</text>
+<rect class="bar" x="1137" y="786.7" width="113.1" height="16.3" rx="2"/>
+<text x="1255.1" y="798.4" class="axis">$46.96</text>
+<text x="1129.0" y="821.7" class="axis" text-anchor="end">permute_to_unimodal</text>
+<rect class="bar" x="1137" y="810.0" width="110.4" height="16.3" rx="2"/>
+<text x="1252.4" y="821.7" class="axis">$45.85</text>
+<text x="1129.0" y="845.0" class="axis" text-anchor="end">symAction_range_eq_centralizer_glA</text>
+<rect class="bar" x="1137" y="833.3" width="108.4" height="16.3" rx="2"/>
+<text x="1250.4" y="845.0" class="axis">$44.98</text>
+<text x="1129.0" y="868.4" class="axis" text-anchor="end">jordan_normal_form</text>
+<rect class="bar" x="1137" y="856.7" width="107.9" height="16.3" rx="2"/>
+<text x="1249.9" y="868.4" class="axis">$44.78</text>
+<text x="1129.0" y="891.7" class="axis" text-anchor="end">lindemann</text>
+<rect class="bar" x="1137" y="880.0" width="102.4" height="16.3" rx="2"/>
+<text x="1244.4" y="891.7" class="axis">$42.50</text>
+<text x="1129.0" y="915.0" class="axis" text-anchor="end">exists_complementary_polynomial_on</text>
+<rect class="bar" x="1137" y="903.3" width="99.2" height="16.3" rx="2"/>
+<text x="1241.2" y="915.0" class="axis">$41.18</text>
+<text x="1129.0" y="938.4" class="axis" text-anchor="end">fourier_dirichlet_fejer</text>
+<rect class="bar" x="1137" y="926.7" width="89.7" height="16.3" rx="2"/>
+<text x="1231.7" y="938.4" class="axis">$37.22</text>
+<text x="60.0" y="1065.0" class="note">Time axes are logarithmic; costs include exact problem-subtree agents and use pinned setup-time API-equivalent rates.</text>
+</svg>

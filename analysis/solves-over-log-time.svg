@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<style>
+text{font-family:ui-sans-serif,system-ui,sans-serif;fill:#1f2937}
+.grid{stroke:#d1d5db;stroke-width:1}.axis{stroke:#111827;stroke-width:1.5}
+.curve{fill:none;stroke:#2563eb;stroke-width:3;stroke-linejoin:round}
+.point{fill:#2563eb;stroke:#fff;stroke-width:1.4}
+.overflow{fill:#f59e0b;stroke:#fff;stroke-width:1.4}
+.note{fill:#6b7280}
+</style>
+<rect width="1000" height="620" fill="#fff"/>
+<text x="500" y="27" text-anchor="middle" font-size="20" font-weight="650">Verified solves over logarithmic race time</text>
+<text class="note" x="500" y="50" text-anchor="middle" font-size="12">The original speedrun view preserves both the opening sprint and long tail</text>
+<line class="grid" x1="90.000" y1="78" x2="90.000" y2="538"/>
+<text x="90.000" y="562" text-anchor="middle" font-size="12">1s</text>
+<line class="grid" x1="267.453" y1="78" x2="267.453" y2="538"/>
+<text x="267.453" y="562" text-anchor="middle" font-size="12">10s</text>
+<line class="grid" x1="405.539" y1="78" x2="405.539" y2="538"/>
+<text x="405.539" y="562" text-anchor="middle" font-size="12">1m</text>
+<line class="grid" x1="582.992" y1="78" x2="582.992" y2="538"/>
+<text x="582.992" y="562" text-anchor="middle" font-size="12">10m</text>
+<line class="grid" x1="721.077" y1="78" x2="721.077" y2="538"/>
+<text x="721.077" y="562" text-anchor="middle" font-size="12">1h</text>
+<line class="grid" x1="827.915" y1="78" x2="827.915" y2="538"/>
+<text x="827.915" y="562" text-anchor="middle" font-size="12">4h</text>
+<line class="grid" x1="966.000" y1="78" x2="966.000" y2="538"/>
+<text x="966.000" y="562" text-anchor="middle" font-size="12">24h</text>
+<line class="grid" x1="90" y1="538.000" x2="966" y2="538.000"/>
+<text x="78" y="542.000" text-anchor="end" font-size="12">0</text>
+<line class="grid" x1="90" y1="479.772" x2="966" y2="479.772"/>
+<text x="78" y="483.772" text-anchor="end" font-size="12">10</text>
+<line class="grid" x1="90" y1="421.544" x2="966" y2="421.544"/>
+<text x="78" y="425.544" text-anchor="end" font-size="12">20</text>
+<line class="grid" x1="90" y1="363.316" x2="966" y2="363.316"/>
+<text x="78" y="367.316" text-anchor="end" font-size="12">30</text>
+<line class="grid" x1="90" y1="305.089" x2="966" y2="305.089"/>
+<text x="78" y="309.089" text-anchor="end" font-size="12">40</text>
+<line class="grid" x1="90" y1="246.861" x2="966" y2="246.861"/>
+<text x="78" y="250.861" text-anchor="end" font-size="12">50</text>
+<line class="grid" x1="90" y1="188.633" x2="966" y2="188.633"/>
+<text x="78" y="192.633" text-anchor="end" font-size="12">60</text>
+<line class="grid" x1="90" y1="130.405" x2="966" y2="130.405"/>
+<text x="78" y="134.405" text-anchor="end" font-size="12">70</text>
+<line class="grid" x1="90" y1="78.000" x2="966" y2="78.000"/>
+<text x="78" y="82.000" text-anchor="end" font-size="12">79</text>
+<line class="axis" x1="90" y1="538" x2="966" y2="538"/>
+<line class="axis" x1="90" y1="78" x2="90" y2="538"/>
+<text x="528.000" y="598" text-anchor="middle" font-size="14">Elapsed race time (logarithmic)</text>
+<text x="22" y="308.000" text-anchor="middle" font-size="14" transform="rotate(-90 22 308.000)">Cumulative distinct verified solves</text>
+<path class="curve" d="M 90.000 538.000 H 452.382 V 532.177 H 482.239 V 526.354 H 483.445 V 520.532 H 504.316 V 514.709 H 524.155 V 508.886 H 565.575 V 503.063 H 601.019 V 497.241 H 601.920 V 491.418 H 638.296 V 485.595 H 647.344 V 479.772 H 673.464 V 473.949 H 681.954 V 468.127 H 690.634 V 462.304 H 714.367 V 456.481 H 715.413 V 450.658 H 719.057 V 444.835 H 726.074 V 439.013 H 737.577 V 433.190 H 740.952 V 427.367 H 744.401 V 421.544 H 764.662 V 415.722 H 765.406 V 409.899 H 770.825 V 404.076 H 773.607 V 398.253 H 780.787 V 392.430 H 782.368 V 386.608 H 782.657 V 380.785 H 787.417 V 374.962 H 790.655 V 369.139 H 795.800 V 363.316 H 798.645 V 357.494 H 798.675 V 351.671 H 801.077 V 345.848 H 801.706 V 340.025 H 804.254 V 334.203 H 804.258 V 328.380 H 810.082 V 322.557 H 812.159 V 316.734 H 821.263 V 310.911 H 821.837 V 305.089 H 824.170 V 299.266 H 827.645 V 293.443 H 827.710 V 287.620 H 834.394 V 281.797 H 834.582 V 275.975 H 836.433 V 270.152 H 838.790 V 264.329 H 842.042 V 258.506 H 844.597 V 252.684 H 844.909 V 246.861 H 847.264 V 241.038 H 849.890 V 235.215 H 850.264 V 229.392 H 850.489 V 223.570 H 855.513 V 217.747 H 858.468 V 211.924 H 859.330 V 206.101 H 860.928 V 200.278 H 863.315 V 194.456 H 864.249 V 188.633 H 867.398 V 182.810 H 868.052 V 176.987 H 870.552 V 171.165 H 875.486 V 165.342 H 876.748 V 159.519 H 877.588 V 153.696 H 881.279 V 147.873 H 881.852 V 142.051 H 885.699 V 136.228 H 885.817 V 130.405 H 888.659 V 124.582 H 891.172 V 118.759 H 902.642 V 112.937 H 911.239 V 107.114 H 911.489 V 101.291 H 914.551 V 95.468 H 916.804 V 89.646 H 920.975 V 83.823 H 928.274 V 78.000 H 966.000"/>
+<circle class="point" cx="452.382" cy="532.177" r="4"><title>symplectic_matrix_det — solve #1, 2026-08-16T08:11:34.826Z</title></circle>
+<circle class="point" cx="482.239" cy="526.354" r="4"><title>cubic_decay_asymptotic — solve #2, 2026-08-16T08:12:26.964Z</title></circle>
+<circle class="point" cx="483.445" cy="520.532" r="4"><title>koszul_formula — solve #3, 2026-08-16T08:12:29.524Z</title></circle>
+<circle class="point" cx="504.316" cy="514.709" r="4"><title>mulCayley_connected_iff_closure_eq_top — solve #4, 2026-08-16T08:13:20.809Z</title></circle>
+<circle class="point" cx="524.155" cy="508.886" r="4"><title>bvp_comparison — solve #5, 2026-08-16T08:14:24.274Z</title></circle>
+<circle class="point" cx="565.575" cy="503.063" r="4"><title>posSemidef_map_exp — solve #6, 2026-08-16T08:17:43.273Z</title></circle>
+<circle class="point" cx="601.019" cy="497.241" r="4"><title>substInv_X_sub_X_sq_eq_catalan — solve #7, 2026-08-16T08:22:22.767Z</title></circle>
+<circle class="point" cx="601.920" cy="491.418" r="4"><title>finite_graph_ramsey_theorem — solve #8, 2026-08-16T08:22:31.683Z</title></circle>
+<circle class="point" cx="638.296" cy="485.595" r="4"><title>mem_convexHull_finset_extremePoints_of_mem_compact_convex — solve #9, 2026-08-16T08:30:14.366Z</title></circle>
+<circle class="point" cx="647.344" cy="479.772" r="4"><title>sturm_separation — solve #10, 2026-08-16T08:32:47.545Z</title></circle>
+<circle class="point" cx="673.464" cy="473.949" r="4"><title>hippocrates_lunes — solve #11, 2026-08-16T08:42:05.480Z</title></circle>
+<circle class="point" cx="681.954" cy="468.127" r="4"><title>euler_lagrange_equation — solve #12, 2026-08-16T08:45:51.503Z</title></circle>
+<circle class="point" cx="690.634" cy="462.304" r="4"><title>lp_maximum_principle — solve #13, 2026-08-16T08:50:09.828Z</title></circle>
+<circle class="point" cx="714.367" cy="456.481" r="4"><title>trace_cayley_hamilton_newton — solve #14, 2026-08-16T09:04:44.442Z</title></circle>
+<circle class="point" cx="715.413" cy="450.658" r="4"><title>normal_spectral_theorem — solve #15, 2026-08-16T09:05:29.546Z</title></circle>
+<circle class="point" cx="719.057" cy="444.835" r="4"><title>pi1_circle_mulEquiv_int — solve #16, 2026-08-16T09:08:11.513Z</title></circle>
+<circle class="point" cx="726.074" cy="439.013" r="4"><title>pell_solution_convergent — solve #17, 2026-08-16T09:13:45.809Z</title></circle>
+<circle class="point" cx="737.577" cy="433.190" r="4"><title>brauer_character_in_cyclotomic — solve #18, 2026-08-16T09:24:04.127Z</title></circle>
+<circle class="point" cx="740.952" cy="427.367" r="4"><title>irreducible_nonnegative_matrix_has_positive_eigenvector_at_spectralRadius — solve #19, 2026-08-16T09:27:23.767Z</title></circle>
+<circle class="point" cx="744.401" cy="421.544" r="4"><title>oppenheim_inequality — solve #20, 2026-08-16T09:30:57.022Z</title></circle>
+<circle class="point" cx="764.662" cy="415.722" r="4"><title>nash_equilibrium_exists — solve #21, 2026-08-16T09:55:22.079Z</title></circle>
+<circle class="point" cx="765.406" cy="409.899" r="4"><title>rouche_zero_count_eq — solve #22, 2026-08-16T09:56:23.592Z</title></circle>
+<circle class="point" cx="770.825" cy="404.076" r="4"><title>exists_complementary_polynomial_on_unit_circle — solve #23, 2026-08-16T10:04:09.760Z</title></circle>
+<circle class="point" cx="773.607" cy="398.253" r="4"><title>bauer_extreme_point_uniqueness — solve #24, 2026-08-16T10:08:22.099Z</title></circle>
+<circle class="point" cx="780.787" cy="392.430" r="4"><title>rising_sun_lemma — solve #25, 2026-08-16T10:19:57.069Z</title></circle>
+<circle class="point" cx="782.368" cy="386.608" r="4"><title>brouwer_fixed_point — solve #26, 2026-08-16T10:22:38.959Z</title></circle>
+<circle class="point" cx="782.657" cy="380.785" r="4"><title>regular_value_ae — solve #27, 2026-08-16T10:23:08.972Z</title></circle>
+<circle class="point" cx="787.417" cy="374.962" r="4"><title>sard_theorem — solve #28, 2026-08-16T10:31:38.904Z</title></circle>
+<circle class="point" cx="790.655" cy="369.139" r="4"><title>compact_group_semisimple — solve #29, 2026-08-16T10:37:44.197Z</title></circle>
+<circle class="point" cx="795.800" cy="363.316" r="4"><title>abel_ruffini — solve #30, 2026-08-16T10:47:57.331Z</title></circle>
+<circle class="point" cx="798.645" cy="357.494" r="4"><title>monge_kantorovich — solve #31, 2026-08-16T10:53:54.257Z</title></circle>
+<circle class="point" cx="798.675" cy="351.671" r="4"><title>nyquist_shannon_sampling — solve #32, 2026-08-16T10:53:58.068Z</title></circle>
+<circle class="point" cx="801.077" cy="345.848" r="4"><title>chudnovsky_formula_for_pi_inv — solve #33, 2026-08-16T10:59:10.053Z</title></circle>
+<circle class="point" cx="801.706" cy="340.025" r="4"><title>radon_transform_inversion — solve #34, 2026-08-16T11:00:33.313Z</title></circle>
+<circle class="point" cx="804.254" cy="334.203" r="4"><title>dirichlet_eigenvalues_eq_nat_sq — solve #35, 2026-08-16T11:06:17.904Z</title></circle>
+<circle class="point" cx="804.258" cy="328.380" r="4"><title>banach_alaoglu_bourbaki — solve #36, 2026-08-16T11:06:18.357Z</title></circle>
+<circle class="point" cx="810.082" cy="322.557" r="4"><title>wiener_atom_detection — solve #37, 2026-08-16T11:20:09.979Z</title></circle>
+<circle class="point" cx="812.159" cy="316.734" r="4"><title>heat_kernel_solves_heat_equation — solve #38, 2026-08-16T11:25:22.082Z</title></circle>
+<circle class="point" cx="821.263" cy="310.911" r="4"><title>cyclotomic_integer_house_le_two — solve #39, 2026-08-16T11:49:53.861Z</title></circle>
+<circle class="point" cx="821.837" cy="305.089" r="4"><title>fourier_dirichlet_fejer — solve #40, 2026-08-16T11:51:32.583Z</title></circle>
+<circle class="point" cx="824.170" cy="299.266" r="4"><title>schauder_fixed_point — solve #41, 2026-08-16T11:58:21.708Z</title></circle>
+<circle class="point" cx="827.645" cy="293.443" r="4"><title>pascal — solve #42, 2026-08-16T12:08:54.406Z</title></circle>
+<circle class="point" cx="827.710" cy="287.620" r="4"><title>balanceable_bounded_partitions — solve #43, 2026-08-16T12:09:06.434Z</title></circle>
+<circle class="point" cx="834.394" cy="281.797" r="4"><title>linear_ode_asymptotic_stability — solve #44, 2026-08-16T12:30:47.633Z</title></circle>
+<circle class="point" cx="834.582" cy="275.975" r="4"><title>vonNeumann_doubleCommutant_tfae — solve #45, 2026-08-16T12:31:26.001Z</title></circle>
+<circle class="point" cx="836.433" cy="270.152" r="4"><title>brauer_fowler — solve #46, 2026-08-16T12:37:47.707Z</title></circle>
+<circle class="point" cx="838.790" cy="264.329" r="4"><title>furstenberg_topological — solve #47, 2026-08-16T12:46:07.084Z</title></circle>
+<circle class="point" cx="842.042" cy="258.506" r="4"><title>boone_higman_simple — solve #48, 2026-08-16T12:58:01.835Z</title></circle>
+<circle class="point" cx="844.597" cy="252.684" r="4"><title>lindemann — solve #49, 2026-08-16T13:07:44.911Z</title></circle>
+<circle class="point" cx="844.909" cy="246.861" r="4"><title>permute_to_unimodal — solve #50, 2026-08-16T13:08:57.449Z</title></circle>
+<circle class="point" cx="847.264" cy="241.038" r="4"><title>tverberg_theorem — solve #51, 2026-08-16T13:18:14.430Z</title></circle>
+<circle class="point" cx="849.890" cy="235.215" r="4"><title>boone_higman_embedding — solve #52, 2026-08-16T13:28:56.056Z</title></circle>
+<circle class="point" cx="850.264" cy="229.392" r="4"><title>kirk_normal_structure — solve #53, 2026-08-16T13:30:29.114Z</title></circle>
+<circle class="point" cx="850.489" cy="223.570" r="4"><title>sturm — solve #54, 2026-08-16T13:31:25.383Z</title></circle>
+<circle class="point" cx="855.513" cy="217.747" r="4"><title>kakutani_fixed_point — solve #55, 2026-08-16T13:53:05.554Z</title></circle>
+<circle class="point" cx="858.468" cy="211.924" r="4"><title>landsberg_schaar — solve #56, 2026-08-16T14:06:30.734Z</title></circle>
+<circle class="point" cx="859.330" cy="206.101" r="4"><title>lindemann_weierstrass — solve #57, 2026-08-16T14:10:31.692Z</title></circle>
+<circle class="point" cx="860.928" cy="200.278" r="4"><title>wiener_inverse_closed — solve #58, 2026-08-16T14:18:05.076Z</title></circle>
+<circle class="point" cx="863.315" cy="194.456" r="4"><title>peano_existence — solve #59, 2026-08-16T14:29:40.445Z</title></circle>
+<circle class="point" cx="864.249" cy="188.633" r="4"><title>morley_theorem — solve #60, 2026-08-16T14:34:18.421Z</title></circle>
+<circle class="point" cx="867.398" cy="182.810" r="4"><title>shannon_capacity_pentagon — solve #61, 2026-08-16T14:50:20.825Z</title></circle>
+<circle class="point" cx="868.052" cy="176.987" r="4"><title>symAction_range_eq_centralizer_glAction — solve #62, 2026-08-16T14:53:45.649Z</title></circle>
+<circle class="point" cx="870.552" cy="171.165" r="4"><title>glAction_range_eq_centralizer_symAction — solve #63, 2026-08-16T15:07:04.748Z</title></circle>
+<circle class="point" cx="875.486" cy="165.342" r="4"><title>wiener_levy_analytic_calculus — solve #64, 2026-08-16T15:34:40.190Z</title></circle>
+<circle class="point" cx="876.748" cy="159.519" r="4"><title>mountain_pass — solve #65, 2026-08-16T15:42:01.038Z</title></circle>
+<circle class="point" cx="877.588" cy="153.696" r="4"><title>levi_civita_exists_unique — solve #66, 2026-08-16T15:46:58.511Z</title></circle>
+<circle class="point" cx="881.279" cy="147.873" r="4"><title>jordan_normal_form — solve #67, 2026-08-16T16:09:24.382Z</title></circle>
+<circle class="point" cx="881.852" cy="142.051" r="4"><title>solvable_by_radicals_converse — solve #68, 2026-08-16T16:12:59.001Z</title></circle>
+<circle class="point" cx="885.699" cy="136.228" r="4"><title>hausdorff_positivity_criterion — solve #69, 2026-08-16T16:37:43.100Z</title></circle>
+<circle class="point" cx="885.817" cy="130.405" r="4"><title>hausdorff_hildebrandt_schoenberg — solve #70, 2026-08-16T16:38:29.923Z</title></circle>
+<circle class="point" cx="888.659" cy="124.582" r="4"><title>hausdorff_absolute_continuity — solve #71, 2026-08-16T16:57:36.681Z</title></circle>
+<circle class="point" cx="891.172" cy="118.759" r="4"><title>runge_theorem — solve #72, 2026-08-16T17:15:06.211Z</title></circle>
+<circle class="point" cx="902.642" cy="112.937" r="4"><title>contractibleSpace_houseWithTwoRooms — solve #73, 2026-08-16T18:42:37.500Z</title></circle>
+<circle class="point" cx="911.239" cy="107.114" r="4"><title>fang_xia_tiling_partition_transitive — solve #74, 2026-08-16T19:57:18.961Z</title></circle>
+<circle class="point" cx="911.489" cy="101.291" r="4"><title>rokhlin_lemma — solve #75, 2026-08-16T19:59:36.939Z</title></circle>
+<circle class="point" cx="914.551" cy="95.468" r="4"><title>choquet_representation_theorem — solve #76, 2026-08-16T20:28:22.785Z</title></circle>
+<circle class="point" cx="916.804" cy="89.646" r="4"><title>fraser_kakeya_fourier_decay — solve #77, 2026-08-16T20:50:17.682Z</title></circle>
+<circle class="point" cx="920.975" cy="83.823" r="4"><title>frobenius_group_determinant — solve #78, 2026-08-16T21:32:35.692Z</title></circle>
+<circle class="point" cx="928.274" cy="78.000" r="4"><title>halmos_generic_weak_mixing — solve #79, 2026-08-16T22:52:20.643Z</title></circle>
+</svg>
