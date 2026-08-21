@@ -2,7 +2,7 @@
 
 # 24 Hours of Lean
 
-**A GPT-5.6 LeanEval speedrun**
+**LeanEval speedrun**
 
 **79 verified solves** · 86 attempted · 97 controller runs + 262 nested problem agents · 421 archived sessions
 
@@ -25,7 +25,7 @@ One hour of setup, followed by a hard 24-hour solve window from **2026-08-16 08:
 |---:|---:|---:|---:|---:|---:|---:|
 | **79** | **86** | **$3,398.53** | **$1,824.84** | **$571.62** | **4.79B** (97.7% cached) | **87,778 LOC** |
 
-> Cost uses pinned, setup-time (2026-08-16) API-equivalent Standard text-token pricing. It is an accounting estimate, not a ChatGPT subscription charge. The table totals $1,824.84 across exact problem session trees. The $3,398.53 full-process figure adds $1,573.69 of top-level orchestration/support and the setup test.
+> Cost uses pinned, setup-time (2026-08-16) API-equivalent Standard text-token pricing. It is an accounting estimate, not a subscription charge. The table totals $1,824.84 across exact problem session trees. The $3,398.53 full-process figure adds $1,573.69 of top-level orchestration/support and the setup test.
 
 The controller recorded 33.62 active solver-hours across 97 runs and 98 primary rollout sessions. Those roots spawned 262 attributable nested sessions, for 360 problem-tree sessions total. Full trace-level reconciliation is in the [metrics report](analysis/metrics.md), and the [trace index](analysis/trace_index.csv) maps every archived session to its parent and owning problem.
 
@@ -47,7 +47,7 @@ The [analysis gallery](analysis/README.md) adds linear real-time and full-24-hou
 <details open>
 <summary><strong>Original prompt</strong></summary>
 
-> we are speedrunning lean-eval. solve as many lean-eval problems in 24 hours as you can. You are allowed and encouraged to use anything (e.g. mathlib, LeanPool, TauCeti, anything else) except straight-up copying existing solutions (do not try to search for existing solutions - unfortunately many of them are leaked). You can gauge the difficulty of the problem by how many solutions it has in the leaderboard. For easier problems, try to just solve them fast. For harder problems, make a detailed informal proof and scout the existing Lean repos like mathlib, Lean pool, Tau Ceti and others for what's already built that's useful, and make a detailed blueprint before formalizing. Stay under 128gb ram. Do not use any set_options, do not use native_decide. Use subagents aggressively, up to 16 concurrent subagents. You can choose the model and reasoning level for subagents. For each problem you must log how long it took and its approximate token cost using official API pricing. Set up this logging to be deterministic and not self-reported by the agents (test it on a toy problem to make sure it works before going all-in). After exactly 24 hours from the start, stop all work immediately, push the solutions and logs to the repo, and submit all your solutions to lean-eval under name Vasily-24-hour-gpt-5.6-speedrun. Make a graph of solves over time, with time on logarithmic scale. You are alllowed up to 1 hour to set up whatever you need to make the speedrun successful, e.g. fetch mathlib cache, decide on the order of problems (I recommend easier to harder), write a logging script, anything else that's helpful (but don't overthink it). After exactly 1 hour, the 24h speedrun starts. Be careful not to run out of disk space if each agent gets its own worktree. I expect you to be mostly orchestrating a bunch of subagents. Save all the logs from this chat somewhere, where they can be analyzed later on.
+> we are speedrunning lean-eval. solve as many lean-eval problems in 24 hours as you can. You are allowed and encouraged to use anything (e.g. mathlib, LeanPool, TauCeti, anything else) except straight-up copying existing solutions (do not try to search for existing solutions - unfortunately many of them are leaked). You can gauge the difficulty of the problem by how many solutions it has in the leaderboard. For easier problems, try to just solve them fast. For harder problems, make a detailed informal proof and scout the existing Lean repos like mathlib, Lean pool, Tau Ceti and others for what's already built that's useful, and make a detailed blueprint before formalizing. Stay under 128gb ram. Do not use any set_options, do not use native_decide. Use subagents aggressively, up to 16 concurrent subagents. You can choose the model and reasoning level for subagents. For each problem you must log how long it took and its approximate token cost using official API pricing. Set up this logging to be deterministic and not self-reported by the agents (test it on a toy problem to make sure it works before going all-in). After exactly 24 hours from the start, stop all work immediately, push the solutions and logs to the repo, and submit all your solutions to lean-eval. Make a graph of solves over time, with time on logarithmic scale. You are alllowed up to 1 hour to set up whatever you need to make the speedrun successful, e.g. fetch mathlib cache, decide on the order of problems (I recommend easier to harder), write a logging script, anything else that's helpful (but don't overthink it). After exactly 1 hour, the 24h speedrun starts. Be careful not to run out of disk space if each agent gets its own worktree. I expect you to be mostly orchestrating a bunch of subagents. Save all the logs from this chat somewhere, where they can be analyzed later on.
 
 </details>
 
@@ -146,4 +146,4 @@ The [analysis gallery](analysis/README.md) adds linear real-time and full-24-hou
 
 ---
 
-Exact solutions and run evidence: [`lean-eval-speedrun-solutions`](https://github.com/Vilin97/lean-eval-speedrun-solutions) (private) · Submission name: **Vasily-24-hour-gpt-5.6-speedrun**
+Exact solutions and run evidence: [`lean-eval-speedrun-solutions`](https://github.com/Vilin97/lean-eval-speedrun-solutions) (private)
